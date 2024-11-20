@@ -150,16 +150,11 @@
 
   <dependencyManagement>
     <dependencies>
-
-       <!-- delete this line
        <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
             <version>2.13.1</version>
-       </dependency>
-        
-        delete this line -->
-        
+       </dependency>        
       <dependency>
         <groupId>org.ow2.asm</groupId>
         <artifactId>asm</artifactId>
@@ -380,11 +375,6 @@
     <dependency>
       <groupId>org.glassfish.jaxb</groupId>
       <artifactId>jaxb-runtime</artifactId>
-    </dependency>
-    <dependency>
-       <groupId>org.apache.logging.log4j</groupId>
-       <artifactId>log4j-core</artifactId>
-       <version>2.13.1</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
